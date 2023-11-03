@@ -71,7 +71,7 @@ export default function ServiceEditor() {
           {(name || price) && (
             <Button
               variant='contained'
-              color='secondary'
+              color='prim'
               onClick={() => formReset()}
             >
               Cancel
